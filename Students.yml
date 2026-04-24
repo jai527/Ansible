@@ -1,0 +1,28 @@
+- name: "jai"
+  DOB: "28-12-1994"
+  Mobilenumber: 9866213626
+  Addreesses:
+  - flatnumber: 104
+    street: "kunnamkalatur"
+    city: "tirupathi"
+    tupe: "current"
+
+  - flatnumber: 104
+    street: "kunnamkalatur"
+    city: "tirupathi"
+    type: "prm"
+
+- name: "jai1"
+  DOB: "28-12-1994"
+  Mobilenumber: 9866213626
+  Addreesses:
+  - flatnumber: 104
+    street: "kunnamkalatur"
+    city: "tirupathi"
+    tupe: "current"
+
+  - flatnumber: 104
+    street: "kunnamkalatur"
+    city: "tirupathi"
+    type: "prm"
+

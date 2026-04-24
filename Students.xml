@@ -1,0 +1,50 @@
+<Studebts>
+    <student>
+        <firstName>jai</firstName>
+        <DOB>1994-12-28</DOB>
+        <Email>mjai844@gmail.com</Email>
+        <!-- <Adress>5/14 kunnamkalathur</Adress> we can give like this also or else we can give in objective also below like this -->
+        <!-- <Adress>
+            <flatnumber>5/14</flatnumber>
+            <streetname>kunnamkalathur</streetname>
+            <villagename>arai</villagename>
+            </Adress> -->
+        <Adress>
+            <Permentaddress>
+                flatnumber>5/14</flatnumber>
+                <streetname>kunnamkalathur</streetname>
+                <villagename>arai</villagename>
+            </permentadress>
+            <currentadress>
+                <flatnumber>5/14</flatnumber>
+                <streetname>kunnamkalathur</streetname>
+                <villagename>arai</villagename>
+            </currentadress>
+        </Adress>
+    </student>
+
+
+    <student>
+        <firstName>jai1</firstName>
+        <DOB>1994-12-28</DOB>
+        <Email>mjai844@gmail.com</Email>
+        <!-- <Adress>5/14 kunnamkalathur</Adress> we can give like this also or else we can give in objective also below like this -->
+        <!-- <Adress>
+            <flatnumber>5/14</flatnumber>
+            <streetname>kunnamkalathur</streetname>
+            <villagename>arai</villagename>
+            </Adress> -->
+        <Adress>
+            <Permentaddress>
+                flatnumber>5/14</flatnumber>
+                <streetname>kunnamkalathur</streetname>
+                <villagename>arai</villagename>
+            </permentadress>
+            <currentadress>
+                <flatnumber>5/14</flatnumber>
+                <streetname>kunnamkalathur</streetname>
+                <villagename>arai</villagename>
+            </currentadress>
+        </Adress>
+    </student>
+</Students>

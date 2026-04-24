@@ -1,0 +1,46 @@
+{
+    "Students":[
+        {
+            "firstname": "jai",
+            "DOB":"28-12-1994",
+
+            "Adress":[
+                {
+                    "type":"perm",
+                    "flatnumber":402,
+                    "area":"gandistreet",
+                    "city":"tirupathi"
+                },
+                {
+                    "type":"current",
+                    "flatnumber":402,
+                    "area":"gandistreet",
+                    "city":"tirupathi"
+                }
+            ],
+            "Skill":["java","Devops","cloud"]
+        },
+        {
+        "firstname": "jai1",
+            "DOB":"28-12-1994",
+
+            "Adress":[
+                {
+                    "type":"perm",
+                    "flatnumber":402,
+                    "area":"gandistreet",
+                    "city":"tirupathi"
+                },
+                {
+                    "type":"current",
+                    "flatnumber":402,
+                    "area":"gandistreet",
+                    "city":"tirupathi"
+                }
+            ],
+            "Skill":["java","Devops","cloud"]
+        }
+    ]
+    
+            
+}
