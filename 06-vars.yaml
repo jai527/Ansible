@@ -3,14 +3,14 @@
   connection: local
   vars_prompt:
   - name: username
-    prompt: please enter the username
+    prompt: "please enter the username"
     private: false
 
   - name: password
-    prompt: please enter the password
+    prompt: "please enter the password"
     private: true
 
     tasks:
     - name: print info
       ansible.builtin.debug:
-      msg: "username is: {{ username }} password is: {{ password }}"
+      msg: "username is: {{ username }}, password is: {{ password }}"
