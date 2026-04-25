@@ -1,10 +1,8 @@
 - name: play level variables
   hosts: local
   connection: local
-  vars:
-    coures: "devops with aws"
-    duration: "140hrs"
-    trainer : "siva"
+  vars_files:
+  - coures.yaml
   tasks:
   - name: print variable
     ansible.builtin.debug:
