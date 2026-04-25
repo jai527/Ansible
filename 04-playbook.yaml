@@ -3,9 +3,9 @@
   connection: local
   vars:
     coures: "devops with aws"
-    duration: 140hrs
-    trainer : siva
+    duration: "140hrs"
+    trainer : "siva"
   tasks:
   - name: print variable
     ansible.builtin.debug:
-      msg: "coures is : {{ coures }, trainer is: {trainer }"
+      msg: "coures is: {{ coures }, trainer is: {trainer }}"
