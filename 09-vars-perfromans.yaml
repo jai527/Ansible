@@ -5,9 +5,6 @@
   vars:
     name: "ansible from play"
 
-  vars_files:
-    - vars.yaml
-
   vars_prompt:
     - name: name
       prompt: "please enter the user name"
