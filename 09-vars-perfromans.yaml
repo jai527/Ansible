@@ -5,10 +5,10 @@
   vars:
     name: "ansible from play"
 
-  vars_prompt:
-    - name: name
-      prompt: "please enter the user name"
-      private: false
+  # vars_prompt:
+  #   - name: name
+  #     prompt: "please enter the user name"
+  #     private: false
 
   # tasks:
   #   - name: print the name
