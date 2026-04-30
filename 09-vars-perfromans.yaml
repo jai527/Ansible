@@ -1,0 +1,17 @@
+- name: vars performans 
+  hosts: local
+  connection: local
+  vars:
+    name: "ansible from play"
+  vars_file:
+  - coures.yaml
+  vars_prompt:
+  - name: name
+    prompt: please enter the user name
+    private: false
+  tasks:
+  - name: please the name
+    vars:
+      name: "ansiblefrom task"
+    ansible.builtin.debug:
+    msg: "hi {{ name }}"
