@@ -5,14 +5,22 @@
   vars:
     name: "ansible from play"
 
-  # vars_prompt:
-  #   - name: name
-  #     prompt: "please enter the user name"
-  #     private: false
+  vars_prompt:
+    - name: name
+      prompt: "please enter the user name"
+      private: false
 
-  # tasks:
-  #   - name: print the name
-  #     vars:
-  #       name: "ansible from task"
-  #     ansible.builtin.debug:
-  #       msg: "Hi {{ name }}"
+  tasks:
+    - name: print the name
+      vars:
+        name: "ansible from task"
+      ansible.builtin.debug:
+        msg: "Hi {{ name }}" 
+
+
+# 1. Args
+# 2. Tasks
+# 3. file
+# 4. prompot 
+# 5. play
+# 6. inventory 

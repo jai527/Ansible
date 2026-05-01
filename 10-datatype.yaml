@@ -1,0 +1,23 @@
+- name: demo on data types
+  hosts: local
+  connection: local
+  vars:
+    Program: "aws devops with devsecops"
+    Duration: 140Hrs
+    IS_Live: true
+    Details:
+      traineer: "jai yadav"
+      Months: 6
+    Topics:
+    - linux
+    - devops
+    - aws
+  Tasks:
+  - name: print variables
+    ansible.builtin.debug:
+    msg: |
+      Program: {{ Program }}
+      Duration: {{ Duration }}
+      IS_Live?: {{ IS_Live}}
+      Details: {{ Details }}
+      Topics: {{ Topics }}
