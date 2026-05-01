@@ -1,0 +1,17 @@
+- name: Check number condition
+  hosts: localhost
+  connection: local
+
+  vars:
+    number: 75   # change this value
+
+  tasks:
+    - name: If number is less than 100
+      debug:
+        msg: "Number is less than 100"
+      when: number < 100
+
+    - name: If number is NOT less than 100
+      debug:
+        msg: "Number is greater than or equal to 100"
+      when: number >= 100
