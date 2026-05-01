@@ -10,3 +10,8 @@
     ansible.builtin.debug:
       msg: "Yes,it is live"
     when: IS_Live
+  
+  - name: check if not live 
+    ansible.builtin.debug:
+      msg: "No,it is Not live"
+    when: not IS_Live
