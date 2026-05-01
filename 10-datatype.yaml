@@ -3,13 +3,13 @@
   connection: local
 
   vars:
-    Program: "aws devops with devsecops"
-    Duration: "140Hrs"
-    IS_Live: true
-    Details:
+    Program: "aws devops with devsecops" # string
+    Duration: "140Hrs"  # int/number
+    IS_Live: true  # bool
+    Details:    # map/dictinory
       trainer: "jai yadav"
       Months: 6
-    Topics:
+    Topics:   # list -/[]
       - linux
       - devops
       - aws
