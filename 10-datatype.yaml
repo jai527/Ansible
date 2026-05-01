@@ -12,6 +12,7 @@
     - linux
     - devops
     - aws
+    
   Tasks:
   - name: print variables
     ansible.builtin.debug:
