@@ -3,7 +3,7 @@
   connection: local
 
   vars:
-    number: 75   # change this value
+    number: 175   # change this value
 
   tasks:
     - name: If number is less than 100
