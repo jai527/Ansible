@@ -3,6 +3,7 @@
   connection: local
   tasks:
   - name: command module set
+    #ansible.builtin.debug: cat /etc/passwd | grep root
     ansible.builtin.debug: cat /etc/passwd | grep root
     register: user_output
   
