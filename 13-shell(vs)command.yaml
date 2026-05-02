@@ -17,7 +17,7 @@
     ansible.builtin.shell: ls -lrt > files.txt
     register: files_output
   
-  -name: print out of file
+  - name: print out of file
     ansible.builtin.debug:
       msg: "{{ files_output }}"
   
