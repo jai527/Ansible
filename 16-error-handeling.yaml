@@ -4,17 +4,14 @@
   become: yes
 
   tasks:
-  - name: check the user is exit or not
-    ansible.builtin.command: id roboshop
-    register: user_output
+    - name: check the user is exit or not
+      ansible.builtin.command: id roboshop
+      register: user_output
   
-  - name: print the output 
-    ansible.builtin.debug:
-      msg: "{{ user_output }}"
+    - name: print the output 
+      ansible.builtin.debug:
+        msg: "{{ user_output }}"
 
-  - name: creat the user jai
-    ansible.builtin.command: useradd roboshop
-    when: user_output.rc !=0
-
-
-  
+    - name: creat the user
+       ansible.builtin.command: useradd roboshop
+        when: user_output.rc != 0
